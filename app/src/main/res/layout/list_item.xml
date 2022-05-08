@@ -8,12 +8,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="8dp">
 
         <ImageView
                 android:id="@+id/item_image"
                 android:layout_width="match_parent"
-                android:layout_height="194dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:importantForAccessibility="no" />
 
@@ -21,8 +21,8 @@
                 android:id="@+id/item_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:textAppearance="?attr/textAppearanceHeadline6" />
+                android:padding="8dp"
+                android:textAppearance="?attr/textAppearanceSubtitle2" />
 
 
     </LinearLayout>
